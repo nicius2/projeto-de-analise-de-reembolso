@@ -229,6 +229,7 @@ aside {
     }
 }
 
+
 .expense-info strong {
     font-size: 0.87rem;
     color: #1f2523;
@@ -240,16 +241,16 @@ aside {
   }
   
   .expense-amount {
-    font-size: 0.87rem;
+    font-size: 1rem;
     color: #1f2523;
-    font-weight: 600;
-  }
-  
-  .expense-amount small {
-    font-size: 0.75rem;
-    color: #4d5c57;
-    font-weight: 400;
-    margin-right: 0.25rem;
+    font-weight: 700;
+
+    & small{
+      font-size: 0.75rem;
+      color: #4d5c57;
+      font-weight: 400;
+      margin-right: 0.25rem;
+    }
   }
   
   .remove-icon {
