@@ -170,5 +170,6 @@ expenseList.addEventListener("click", function (event){
     }
 
     // Atualiza os totais
-    updateTotals()
+    updateTotals() 
+    
 })
